@@ -1,0 +1,56 @@
+.container {
+    border: 3px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    padding: 5px;
+    height: 250px;
+    width: 250px;
+}
+
+.smiley-face {
+    height: 250px;
+    width: 250px;
+    background: #ffc559;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shadow {
+    height: 250px;
+    width: 250px;
+    top: -12px;
+    left: -4px;
+    border-radius: 50%;
+    border-bottom: 15px solid #ffb038;
+    position: absolute;
+    transform: rotate(317deg);
+}
+
+.smiley {
+    height: 90px;
+    width: 150px;
+    border-radius: 50%;
+    border-bottom: 15px solid black;
+    position: absolute;
+    bottom: 53px;
+    left: 55px;
+}
+
+.eye {
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background: #000;
+    top: 70px;
+}
+
+.right-eye {
+    right: 50px;
+
+}
+
+.left-eye {
+    left: 50px;
+}

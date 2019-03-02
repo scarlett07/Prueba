@@ -1,0 +1,14 @@
+.square{
+    background: red;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.inner-square{
+    background: blue;
+    height: 20px;
+    width: 20px;
+    margin: 40px;
+}
